@@ -1,0 +1,21 @@
+{
+    "name": "kukolos/mplayer-cli",
+    "description": "Mplayer CLI",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin",
+            "email": "martin@kukolos.sk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MayMeowCodes\\SoundPlayer\\Console\\": "src"
+        }
+    },
+    "require": {
+        "may-meow-cloud/socket-server": "^0.0.1",
+        "symfony/console": "^3.2"
+    }
+}
